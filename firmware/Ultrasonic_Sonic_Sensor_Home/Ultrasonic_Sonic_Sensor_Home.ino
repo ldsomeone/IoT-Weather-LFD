@@ -1,19 +1,20 @@
-#include <math.h>
-#include <WiFi.h>
-#include <aREST.h>
-#include <DHT.h>
+#include <math.h> //includes the math library
+#include <WiFi.h> //includes the WiFI library
+#include <aREST.h> //includes the aREST library
+#include <DHT.h> //includes the dht (weather sensor) library
 
-#define DHTPIN 26
-#define DHTTYPE DHT11
+#define DHTPIN 26  //defines (as a constant) pin 26 to the dht
+#define DHTTYPE DHT11  //we have a DHT-11 (as opposed to a dht-22)
 
 
 
 // Create aREST instance
 aREST rest = aREST();
 
+//Sets the DHT Pin 
 DHT dht(DHTPIN, DHTTYPE, 15);
 
-// WiFi parameters
+// Sets the WiFi parameters
 const char* ssid = "xxxx";
 const char* password = "xxxx";
 //Static IP address configuration
@@ -23,7 +24,7 @@ const char* password = "xxxx";
 // Create an instance of the server
 WiFiServer server(LISTEN_PORT);
 
-
+//Sets the pins for the ultrasonic sensor - the trigger (that sends out the sound wave) and the echo pin (that revieces the sound wave)
 const int trigPin = 5;
 const int echoPin = 18;
 
@@ -32,7 +33,6 @@ const int echoPin = 18;
 
 //define sound speed in cm/uS
 #define SOUND_SPEED 0.034
-#define CM_TO_INCH 0.393701
 #define PI 3.141592653
 
 
@@ -49,7 +49,6 @@ float humidity;
 
 // Declare functions to be exposed to the API
 int ledControl(String command);
-
 
 
 
@@ -81,12 +80,12 @@ void setup(void) {
   IPAddress subnet(255, 255, 255, 0);  //set subnet
   WiFi.config(ip, gateway, subnet);
 
-  while (WiFi.status() != WL_CONNECTED) {
+  while (WiFi.status() != WL_CONNECTED) {  //while the wifi on the esp-32 is not connected, it will print '.'
     delay(500);
-    Serial.print("hi");
+    Serial.print(".");
   }
   Serial.println("");
-  Serial.println("WiFi connected");
+  Serial.println("WiFi connected"); //prints to the serial monitor the message
 
   // Start the server
   server.begin();
@@ -102,10 +101,10 @@ void setup(void) {
 
 void loop() {
 
-  temperature = dht.readTemperature();
+  temperature = dht.readTemperature(); //sets our temperature variables to the reading off the sensor
   humidity = dht.readHumidity();
 
-  // Prints the temperature in celsius
+  // Prints the temperature in celsius and the humidity
   Serial.print("Temperature: ");
   Serial.println(temperature);
   Serial.print("Humidity: ");

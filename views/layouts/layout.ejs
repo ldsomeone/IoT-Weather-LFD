@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Specifies the document language as English -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>IoT Depth Sensor</title>
+    <meta charset="UTF-8">  <!-- Defines the character encoding as UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- sets viewport configuration so it is responsive (the webpage will fit to the size of the screen) -->
+    <link rel="stylesheet" href="css/styles.css" />  <!-- Links our CSS stylesheet -->
+    <title>IoT Depth Sensor</title> <!-- Sets the title of the webpage  -->
 </head>
 <body>
-    <div class="grid-container">
-        <%- include('../partials/header.ejs') %>
-        <%- body %>
-        <%- include('../partials/footer.ejs') %>
+    <div class="grid-container">   <!-- Defines a container with a CSS class "grid-container" for layout -->
+        <%- include('../partials/header.ejs') %> <!-- Includes the content of the header.ejs in the partials folder for a header -->
+        <%- body %> <!-- Includes the main content of the page (this file is a template or layout. The actually contnet is called from ) -->
+        <%- include('../partials/footer.ejs') %> <!-- Includes the content of the EJS file footer.ejs for the footer -->
     </div>
 </body>
 </html>
