@@ -1,4 +1,4 @@
-const express= require('express')
+const express = require('express')
 const router = express.Router()
 const {fetch} = require('undici')
 
@@ -15,7 +15,7 @@ router.get('/', async(req, res) => {
 
 async function getApiData() {
     try { 
-        const res = await fetch('http://192.168.1.xxx')
+        const res = await fetch('http://192.168.1.140')
 
         if (!res.ok) {
             throw new Error('Failed to fetch data')
@@ -28,6 +28,7 @@ async function getApiData() {
             location : txt.variables.location,
             id: txt.id,
             hardware: txt.hardware,
+            percentageOfMaxCapacity : txt.variables.percentageOfMaxCapacity,
             temperature : txt.variables.temperature,
             humidity : txt.variables.humidity,
         }
