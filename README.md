@@ -15,24 +15,6 @@
 - [x] set index route and views
 - [x] link ESP32 to Node app with fetch
 
-### Initializing a Node.js Environment
-
-1. Ensure that Node.js and NPM are installed on your system:
-    > node --version
-
-    > npm --version
-
-2. In terminal, inside the project directory:
-    > npm init -y
-
-3. This will add a package.json file
-
-4. Install dependencies
-    > npm install express ejs express-ejs-layouts
-
-5. Install development dependencies
-    > npm install --save-dev dotenv nodemon
-
 
 ### Initializing a Node.js Environment
 
@@ -78,7 +60,8 @@
 Date | Commit Message | Version
 :-----|:----------------:|:--------:
 25.08.23 | initial setup | 0.1.0
-7.09.23  | adding ultrasonic sensor and building website  | 0.1.1
+7.09.23 | adding ultrasonic sensor and coding website  | 0.1.1
+14.09.23 | adding navbar to the website and adding an ouptup | 0.1.2
 
 ### References
 
