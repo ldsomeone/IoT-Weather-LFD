@@ -12,8 +12,8 @@
 - [x] Test ESP32 - get json data via wifi
 - [x] Initialize Node.js environment
 - [x] setup server.js with express
-- [ ] set index route and views
-- [ ] link ESP32 to Node app with fetch
+- [x] set index route and views
+- [x] link ESP32 to Node app with fetch
 
 ### Initializing a Node.js Environment
 
@@ -53,7 +53,24 @@
     > npm install --save-dev dotenv nodemon
     
 
-### Initializing a Node.js Environment
+### Coding
+
+1. Add code to create rest api and webserver
+    > 
+
+    > 
+
+2. 
+    
+
+3. 
+
+4. 
+    
+
+5. 
+    > 
+
 
 
 ### Worklog and Commits
