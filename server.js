@@ -28,14 +28,6 @@ app.get('/underdevelopment', (req, res) => {
     res.render('underdevelopment'); //reders the "underdevelopment.ejs" that is located in the views directory
 });
 
-app.get('/watertank', (req, res) => {
-    res.render('watertank'); //reders the "watertank.ejs" that is located in the views directory
-});
-
-app.get('/weather', (req, res) => {
-    res.render('weather'); // reders the "weather.ejs" that is located in the views directory
-});
-
 app.get('/links', (req, res) => {
     res.render('externallinks'); // reders the "externallinks.ejs" that is located in the views directory (folder)
 });

@@ -6,7 +6,10 @@
 #define DHTPIN 26  //defines (as a constant) pin 26 to the dht
 #define DHTTYPE DHT11  //we have a DHT-11 (as opposed to a dht-22)
 
-
+const int PIN_RED   = 2; //Red LED on pin 9
+const int PIN_GREEN = 4; //Green LED on pin 10
+const int PIN_BLUE  = 16; //Blue LED on Pin 11
+ 
 
 // Create aREST instance
 aREST rest = aREST();
@@ -15,8 +18,8 @@ aREST rest = aREST();
 DHT dht(DHTPIN, DHTTYPE, 15);
 
 // Sets the WiFi parameters
-const char* ssid = "xxxx";
-const char* password = "xxxx";
+const char* ssid = "Proxima";
+const char* password = "centauri";
 //Static IP address configuration
 // P connections
 #define LISTEN_PORT 80
@@ -29,7 +32,19 @@ const int trigPin = 5;
 const int echoPin = 18;
 
 
+ 
+//variables to hold our color intensities
+int red;
+int green;
+int blue;
 
+/* This function "Set Color" will set the color of the LED
+   rather than doing it over and over in the loop. */
+void setColor(int R, int G, int B) {
+  analogWrite(PIN_RED,   R);
+  analogWrite(PIN_GREEN, G);
+  analogWrite(PIN_BLUE,  B);
+}
 
 //define sound speed in cm/uS
 #define SOUND_SPEED 0.034
@@ -60,6 +75,12 @@ void setup(void) {
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
   pinMode(echoPin, INPUT); // Sets the echoPin as an Input
   dht.begin();
+
+
+  //set all three LED pins to output mode
+  pinMode(PIN_RED,   OUTPUT);
+  pinMode(PIN_GREEN, OUTPUT);
+  pinMode(PIN_BLUE,  OUTPUT);
   
   // Init variables and expose them to REST API
   rest.variable("percentageOfMaxCapacity", &percentageOfMaxCapacity);
@@ -80,12 +101,12 @@ void setup(void) {
   IPAddress subnet(255, 255, 255, 0);  //set subnet
   WiFi.config(ip, gateway, subnet);
 
-  while (WiFi.status() != WL_CONNECTED) {  //while the wifi on the esp-32 is not connected, it will print '.'
-    delay(500);
-    Serial.print(".");
-  }
-  Serial.println("");
-  Serial.println("WiFi connected"); //prints to the serial monitor the message
+  // while (WiFi.status() != WL_CONNECTED) {  //while the wifi on the esp-32 is not connected, it will print '.'
+  //   delay(500);
+  //   Serial.print(".");
+  // }
+  // Serial.println("");
+  // Serial.println("WiFi connected"); //prints to the serial monitor the message
 
   // Start the server
   server.begin();
@@ -104,12 +125,23 @@ void loop() {
   temperature = dht.readTemperature(); //sets our temperature variables to the reading off the sensor
   humidity = dht.readHumidity();
 
+  if (temperature <= 17.0) {  // If in the cold temperature range
+      setColor(15, 3, 252);  // Display Dark Blue
+    } else if (temperature <= 20.0) {  // If in cold-mderate temperature range
+      setColor(137, 207, 240);  // then show light Blue
+    } else if (temperature <= 23.0) {  // if in the moderate temperature range
+      setColor(0, 255, 0);  // then show green
+    } else if (temperature <= 26.0) {  // if in the moderate-hot temperature range
+      setColor(256, 110, 0);  // then show orange   
+    } else {  // if in the hot temperature range
+      setColor(255, 0, 0);  // then show red
+    }
+
   // Prints the temperature in celsius and the humidity
   Serial.print("Temperature: ");
   Serial.println(temperature);
   Serial.print("Humidity: ");
   Serial.println(humidity);
-
 
 
   // Clears the trigPin
