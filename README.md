@@ -2,10 +2,12 @@
 
 ## an IoT project
 
-![Yellow-Umbrella](public/assets/yellow-umbrella.png)
-
 
 This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor. This data it transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. There is also the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
+
+
+![Yellow-Umbrella](public/assets/yellow-umbrella.png)
+
 
 
 ### Development Roadmap
