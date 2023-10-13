@@ -1,8 +1,14 @@
-# Weather Station
+# Smart Watering App
 
 ## an IoT project
 
-![Yellow-Umbrella](public/assets/yellow-umbrella.png)
+
+This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor. This data it transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. There is also the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
+
+
+![Water Tank](public/assets/Water_Tank.png)
+
+
 
 ### Development Roadmap
 
@@ -37,22 +43,20 @@
 
 ### Coding
 
-1. Add code to create rest api and webserver
-    > 
+1. Code the Adrduino -. 
+    >  Taking the reading from the ultrasonic sensor and dht-11 weather sensor
 
-    > 
+    > LED code - vary the colour based on the temperature. I.e. if it is hot red is displayed, if it is cold, blue is displayed and so on.
 
-2. 
+2. Add code to create rest api and webserver
     
+3. Setup code to host the server
 
-3. 
-
-4. 
-    
-
-5. 
-    > 
-
+4. Make an index page for the website
+     > Seup with head/footer and css
+     
+     > Put the readings from the sensors onto the webpage
+   
 
 
 ### Worklog and Commits
