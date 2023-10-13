@@ -1,4 +1,4 @@
-# Weather Station
+# Smart Watering App
 
 ## an IoT project
 
@@ -37,22 +37,20 @@
 
 ### Coding
 
-1. Add code to create rest api and webserver
-    > 
+1. Code the Adrduino -. 
+    >  Taking the reading from the ultrasonic sensor and dht-11 weather sensor
 
-    > 
+    > LED code - vary the colour based on the temperature. I.e. if it is hot red is displayed, if it is cold, blue is displayed and so on.
 
-2. 
+2. Add code to create rest api and webserver
     
+3. Setup code to host the server
 
-3. 
-
-4. 
-    
-
-5. 
-    > 
-
+4. Make an index page for the website
+     > Seup with head/footer and css
+     
+     > Put the readings from the sensors onto the webpage
+   
 
 
 ### Worklog and Commits
