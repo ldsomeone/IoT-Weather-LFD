@@ -1,6 +1,6 @@
 
     <menu class="center-text">
-      <h2 class="box"><br />Weather</h2>
+      <h2>Weather</h2>
       <p><br />Check the weather according to your sensor below to see if you need to water your plants.</p>
       <p>Temperature: <%= obj.temperature %><br /></p>
       <p>Humidity: <%= obj.humidity %><br /></p>
@@ -10,13 +10,15 @@
       <h2>IoT Smart Watering Systems</h2>
       <p><b>An App to Help with Water Management</b></p>
       <img src="assets/IoT Watering.png" alt="article banner" class="center-banner"/>
+      <br />
+      <img src="assets/water_tank.png" alt="article banner" class="center-banner" style="width:200px;height:auto;"/>
 
       <p>Location: <%= obj.location %><br /></p>
 
     </article>
 
     <aside class="center-text">
-      <h2 class="box"><br />Water Tank</h2>
+      <h2>Water Tank</h2>
       <p><br />How much water do you have left in your water tank? Check below so you can manage your irrigation accordingly and minimise wastage.</p>
       <p>Percentage of Water Left: <%= obj.percentageOfMaxCapacity%><br /></p>
     </aside>

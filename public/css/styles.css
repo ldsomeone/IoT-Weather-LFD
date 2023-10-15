@@ -292,3 +292,11 @@ h2 a {
   border-radius: 2px;
   transition-duration: 0.5s;
 }
+
+aside h2 {
+  color: #3d76d9;
+}
+
+menu h2 {
+  color: #3d76d9;
+}
