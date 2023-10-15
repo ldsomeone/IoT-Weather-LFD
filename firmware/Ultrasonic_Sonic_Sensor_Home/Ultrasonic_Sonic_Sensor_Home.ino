@@ -18,8 +18,8 @@ aREST rest = aREST();
 DHT dht(DHTPIN, DHTTYPE, 15);
 
 // Sets the WiFi parameters
-const char* ssid = "Pakedge2.4-1";
-const char* password = "pakedgewireless";
+const char* ssid = "Proxima";
+const char* password = "centauri";
 //Static IP address configuration
 // P connections
 #define LISTEN_PORT 80
