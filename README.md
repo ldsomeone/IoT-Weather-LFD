@@ -52,6 +52,7 @@ RGB LED With and ESP-32:
 <br>
 <img src="public/assets/ESP32-with-RGB-LED-Wiring.jpg" width="450" height="300">
 <br>
+<br>
 
 ### Installations
 > Aruino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
