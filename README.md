@@ -1,13 +1,38 @@
 # Smart Watering App
 
-## an IoT project
+## An IoT project
 
 
-This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor. This data it transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. There is also the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
+This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor. This data is transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. There is also the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
 
 
 ![Water Tank](public/assets/Water_Tank.png)
 
+###Components Used
+In this project the components used were: 
+> an ESP-32 - This is a microchip that we have used to send information to, and recieve information from, the sensors. This has integrated Wi-Fi and connects to our node application to provide real time data.
+> HR-S04 (Ultrasonic Sensor) - Ultrasonic sensors can be used in many situations. For us, it is used to calculate the how much water is left in a water tank by finding the distance from the top of the water tank to the level of the water. This distance is then converted into a percentage of the maximum capacity. The calculations used are for a sample water tank.
+> DHT-11 (Weather Sensor) - This is a weather sensor that will provide both the temperature and humidity.
+> RGB LED Light - This is an output that is used to display the temperature. If it is cold, blue will be showing. If it is hot, red will be displayed.
+
+###Prerequisites (see below for installation guides)
+> Components (Listed Above) with breadboard and cables
+> Arduino IDE - for the backend coding
+> VS Code - for setting up the server and webpages
+> Github - for repository (see below for how to set up)
+
+###Wiring 
+The wiring diagrams for the components are seen below.
+
+###Installations
+> Aruino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
+Follow installation guide then install the following libraries: aREST Library, DHT Sensor Library and Adafruit Unified Sensor Library
+> VS Code [Setting Up VS Code](https://code.visualstudio.com/download)
+Follow the installation guide above
+
+###Setting Up a Github Repository
+Setting up a GitHub repository can be very, very useful so you have a record of your code.
+Follow the guide to setup a repository by forking this repo: [How to Fork a GitHub Repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
 
 
 ### Development Roadmap
