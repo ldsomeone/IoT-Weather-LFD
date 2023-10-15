@@ -18,6 +18,7 @@ In this project the components used were:
 
 > RGB LED Light - This is an output that is used to display the temperature. If it is cold, blue will be showing. If it is hot, red will be displayed.
 
+<br>
 
 
 ### Prerequisites (see below for installation guides)
@@ -29,12 +30,13 @@ In this project the components used were:
 
 > Github - for repository (see below for how to set up)
 
-  
+<br>
 
 
 ### Wiring 
 The wiring diagrams for the components are seen below.
 
+<br>
 
 ### Installations
 > Aruino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
