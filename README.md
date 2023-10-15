@@ -39,7 +39,7 @@ In this project the components used were:
 The wiring diagrams for the components are seen below.
 
 RGB LED With and ESP-32:
-![](public/assets/ESP32-with-RGB-LED-Wiring.jpg)
+![width="100" height="100"](public/assets/ESP32-with-RGB-LED-Wiring.jpg)
 
 DHT-11 and ESP-32:
 ![](public/assets/ESP32-DHT11-Wiring.png)
