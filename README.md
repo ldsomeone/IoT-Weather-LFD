@@ -49,10 +49,13 @@ This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sen
     > LED code - vary the colour based on the temperature. I.e. if it is hot red is displayed, if it is cold, blue is displayed and so on.
 
 2. Add code to create rest api and webserver
+    > Get the JSON data via WiFi
     
-3. Setup code to host the server
+4. Setup code to host the server
+   > Index routes and views
+   > Then an 'about page' with another route
 
-4. Make an index page for the website
+6. Styling webpage 
      > Seup with head/footer and css
      
      > Put the readings from the sensors onto the webpage
