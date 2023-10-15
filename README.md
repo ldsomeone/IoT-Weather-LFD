@@ -3,8 +3,9 @@
 ## An IoT project
 
 
-This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor. This data is transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. There is also the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
+This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor to take reading on the weather and capacity of a water tank. This data is transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. This is useful so you can manage your water use and this project is the start of a fully automated watering system. This is because there is the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
 
+All of the code has been commented for easy understanding. In the firmware folder, in the arduino code (.ino) file, you will have to change the network name and password to whatever you want (your WiFi) because otherwise this project will not work.
 
 ![Water Tank](public/assets/Water_Tank.png)
 
@@ -86,9 +87,9 @@ Follow the guide to setup a repository by forking this repo: [How to Fork a GitH
 ### Initializing a Node.js Environment
 
 1. Ensure that Node.js and NPM are installed on your system:
-    > node --version
+    > use 'node --version'
 
-    > npm --version
+    > and 'npm --version'
 
 2. In terminal, inside the project directory:
     > npm init -y
