@@ -163,6 +163,5 @@ Date | Commit Message | Version
 - [Tutorial for Ultrasonic Sensor](https://www.instructables.com/Ultrasonic-Water-Level-Indicator-Using-HC-SR04-Ard/)
 - [About te DHT-11 Senor and How to Set Up](https://components101.com/sensors/dht11-temperature-sensor)
 - [About the RGD LED](https://www.circuitbread.com/tutorials/how-rgb-leds-work-and-how-to-control-color)
-- 
 
 
