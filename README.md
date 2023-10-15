@@ -29,6 +29,8 @@ In this project the components used were:
 
 > Github - for repository (see below for how to set up)
 
+  
+
 
 ### Wiring 
 The wiring diagrams for the components are seen below.
