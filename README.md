@@ -8,6 +8,8 @@ This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sen
 
 ![Water Tank](public/assets/Water_Tank.png)
 
+<br>
+
 ### Components Used
 In this project the components used were: 
 > an ESP-32 - This is a microchip that we have used to send information to, and recieve information from, the sensors. This has integrated Wi-Fi and connects to our node application to provide real time data.
@@ -47,8 +49,9 @@ Follow the installation guide above
 
 <br>
 
-###Setting Up a Github Repository
+### Setting Up a Github Repository
 Setting up a GitHub repository can be very, very useful so you have a record of your code.
+<br>
 Follow the guide to setup a repository by forking this repo: [How to Fork a GitHub Repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
 
 <br>
