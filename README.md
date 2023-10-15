@@ -82,6 +82,9 @@ Follow installation guide then install the following libraries: aREST Library, D
 > VS Code [Setting Up VS Code](https://code.visualstudio.com/download)
 Follow the installation guide above
 
+> Node JS [Setting Up Node Js](https://nodejs.org/en)
+Download via the link above
+
 <br>
 
 ### Setting Up A Github Repository
@@ -105,6 +108,8 @@ Follow the guide to setup a repository by forking this repo: [How to Fork a GitH
 <br>
 
 ### Node.js 
+
+This [article](https://www.w3schools.com/nodejs/nodejs_intro.asp) discusses what Node JS is, how/when to use it and some basic programming in Node.
 
 1. Ensure that Node.js and NPM are installed on your system:
     > use 'node --version'
