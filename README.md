@@ -45,13 +45,13 @@ Follow installation guide then install the following libraries: aREST Library, D
 > VS Code [Setting Up VS Code](https://code.visualstudio.com/download)
 Follow the installation guide above
 
-
+<br>
 
 ###Setting Up a Github Repository
 Setting up a GitHub repository can be very, very useful so you have a record of your code.
 Follow the guide to setup a repository by forking this repo: [How to Fork a GitHub Repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
 
-
+<br>
 
 ### Development Roadmap
 
@@ -64,6 +64,7 @@ Follow the guide to setup a repository by forking this repo: [How to Fork a GitH
 - [x] set index route and views
 - [x] link ESP32 to Node app with fetch
 
+<br>
 
 ### Initializing a Node.js Environment
 
@@ -83,6 +84,7 @@ Follow the guide to setup a repository by forking this repo: [How to Fork a GitH
 5. Install development dependencies
     > npm install --save-dev dotenv nodemon
     
+<br>
 
 ### Coding
 
@@ -103,7 +105,7 @@ Follow the guide to setup a repository by forking this repo: [How to Fork a GitH
      
      > Put the readings from the sensors onto the webpage
    
-
+<br>
 
 ### Worklog and Commits
 
@@ -112,6 +114,8 @@ Date | Commit Message | Version
 25.08.23 | initial setup | 0.1.0
 7.09.23 | adding ultrasonic sensor and coding website  | 0.1.1
 14.09.23 | adding navbar to the website and adding an ouptup | 0.1.2
+
+<br>
 
 ### References
 
