@@ -39,12 +39,15 @@ In this project the components used were:
 The wiring diagrams for the components are seen below.
 
 RGB LED With and ESP-32:
-<img src="public/assets/ESP32-DHT11-Wiring.png" width="150" height="100">
+<img src="public/assets/ESP32-DHT11-Wiring.png" width="250" height="200">
+<br>
+
 DHT-11 and ESP-32:
-![DHT-11](public/assets/ESP32-DHT11-Wiring.png)
+<img src="public/assets/ESP32-DHT11-Wiring.png" width="250" height="200">
+<br>
 
 Ultrasonic Sensor with ESP-32
-![](public/assets/ESP32-Ultrasonic-Sensor-Wiring.png)
+<img src="public/assets/ESP32-Ultrasonic-Sensor-Wiring.png" width="250" height="200">
 <br>
 
 ### Installations
