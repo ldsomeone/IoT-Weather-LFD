@@ -2,6 +2,12 @@
 
 ## An IoT project
 
+## Table of Contents
+- [Description](#Description)
+- [Components Used](#Components-Used)
+- [Prerequisites](#Prerequisites)
+- [Wiring](#Wiring)
+
 ### Description:
 
 This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor to take reading on the weather and capacity of a water tank. This data is transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. This is useful so you can manage your water use and this project is the start of a fully automated watering system. This is because there is the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
@@ -27,7 +33,8 @@ In this project the components used were:
 <br>
 
 
-### Prerequisites (see below for installation guides)
+### Prerequisites
+Installation Guides Below.
 > Components (Listed Above) with breadboard and cables
 
 > Arduino IDE - for the backend coding
