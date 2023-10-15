@@ -76,6 +76,8 @@ RGB LED With and ESP-32:
 <br>
 
 ### Installations
+Installing the three programs below are necessary for this project.
+
 > Aruino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
 Follow installation guide then install the following libraries: aREST Library, DHT Sensor Library and Adafruit Unified Sensor Library
 
