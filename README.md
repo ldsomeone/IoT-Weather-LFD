@@ -40,7 +40,7 @@ In this project the components used were:
 
 
 ### Wiring 
-The wiring diagrams for the components are seen below.
+The wiring diagrams for the components are seen below, however, because this project uses all of these components, the wiring is slightly differnt. Also, in the .ino file, the specific pins for wiring is different to those in the diagrams so you will need to change the pin number on the file or change where the wire go on your ESP-32.
 
 DHT-11 and ESP-32:
 <br>
