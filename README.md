@@ -38,6 +38,9 @@ In this project the components used were:
 ### Wiring 
 The wiring diagrams for the components are seen below.
 
+RGB LED With and ESP-32:
+![](https://microcontrollerslab.com/wp-content/uploads/2021/11/ESP32-with-RGB-LED-through-resistors-connection-diagram.jpg)
+
 <br>
 
 ### Installations
