@@ -39,8 +39,13 @@ In this project the components used were:
 The wiring diagrams for the components are seen below.
 
 RGB LED With and ESP-32:
-![img|100x100](https://microcontrollerslab.com/wp-content/uploads/2021/11/ESP32-with-RGB-LED-through-resistors-connection-diagram.jpg)
-<img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://microcontrollerslab.com/wp-content/uploads/2021/11/ESP32-with-RGB-LED-through-resistors-connection-diagram.jpg" width="200" height="400" />
+![](public/assets/ESP32-with-RGB-LED-Wiring.jpeg)
+
+DHT-11 and ESP-32:
+![](public/assets/ESP32-DHT11-Wiring.png)
+
+Ultrasonic Sensor with ESP-32
+![](public/assets/ESP32-Ultrasonic-Sensor-Wiring.png)
 <br>
 
 ### Installations
