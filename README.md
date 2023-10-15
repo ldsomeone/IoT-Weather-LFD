@@ -2,11 +2,19 @@
 
 ## An IoT project
 
-## Table of Contents
+<br>
+
+### Table of Contents
 - [Description](#Description)
 - [Components Used](#Components-Used)
 - [Prerequisites](#Prerequisites)
 - [Wiring](#Wiring)
+- [Installations](#Installations)
+- [Setting Up A Github Repository](#Setting-Up-A-Github-Repository)
+- [Starting Node.js](#Node.js)
+- [Coding](#Coding)
+- [Worklog](#Worklog-and-Commits)
+- [References](#References)
 
 ### Description:
 
@@ -74,7 +82,7 @@ Follow the installation guide above
 
 <br>
 
-### Setting Up a Github Repository
+### Setting Up A Github Repository
 Setting up a GitHub repository can be very, very useful so you have a record of your code.
 <br>
 Follow the guide to setup a repository by forking this repo: [How to Fork a GitHub Repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
@@ -94,7 +102,7 @@ Follow the guide to setup a repository by forking this repo: [How to Fork a GitH
 
 <br>
 
-### Initializing a Node.js Environment
+### Node.js 
 
 1. Ensure that Node.js and NPM are installed on your system:
     > use 'node --version'
