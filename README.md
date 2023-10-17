@@ -64,7 +64,7 @@ DHT-11 and ESP-32:
 <img src="public/assets/ESP32-DHT11-Wiring.png" width="450" height="300">
 <br>
 
-Ultrasonic Sensor with ESP-32
+Ultrasonic Sensor with ESP-32:
 <br>
 <img src="public/assets/ESP32-Ultrasonic-Sensor-Wiring.png" width="450" height="300">
 <br>
@@ -73,6 +73,10 @@ RGB LED With and ESP-32:
 <br>
 <img src="public/assets/ESP32-with-RGB-LED-Wiring.jpg" width="450" height="300">
 <br>
+
+My Fully-Wired Smart Watering App:
+<br>
+<img src="public/assets/Wired_ESP-32.jpg" width="350" height="400">
 <br>
 
 
