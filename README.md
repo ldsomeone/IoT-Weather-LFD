@@ -162,9 +162,11 @@ This [article](https://www.w3schools.com/nodejs/nodejs_intro.asp) discusses what
 
 Date | Commit Message | Version
 :-----|:----------------:|:--------:
-25.08.23 | initial setup | 0.1.0
-7.09.23 | adding ultrasonic sensor and coding website  | 0.1.1
+25.08.23 | initial setup of weather sensor and arduino script | 0.1.0
+7.09.23 | adding ultrasonic sensor and coding the server/website  | 0.1.1
 14.09.23 | adding navbar to the website and adding an ouptup | 0.1.2
+21.09.23 | adding an 'about' page and coding the extra routes | 0.1.3
+07.10.23 | updating repository and completing readme.md | 0.1.4
 
 <br>
 
