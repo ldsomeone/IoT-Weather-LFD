@@ -56,7 +56,6 @@ Installation Guides Below.
 
 <br>
 
-
 ### Wiring 
 The wiring diagrams for the components are seen below, however, because this project uses all of these components, the wiring is slightly differnt. Also, in the .ino file, the specific pins for wiring is different to those in the diagrams so you will need to change the pin number on the file or change where the wire go on your ESP-32.
 
@@ -75,6 +74,8 @@ RGB LED With and ESP-32:
 <img src="public/assets/ESP32-with-RGB-LED-Wiring.jpg" width="450" height="300">
 <br>
 <br>
+
+
 
 ### Installations
 Installing the three programs below are necessary for this project.
