@@ -18,7 +18,7 @@
 
 <br>
 
-### Description:
+### Description and Purpose:
 
 This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor to take reading on the weather and capacity of a water tank. This data is transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. This is useful so you can manage your water use and this project is the start of a fully automated watering system. This is because there is the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
 
@@ -39,7 +39,7 @@ In this project the components used were:
 
 - DHT-11 (Weather Sensor) - This is a weather sensor that will provide both the temperature and humidity.
 
-- RGB LED Light - This is an output that is used to display the temperature. If it is cold, blue will be showing. If it is hot, red will be displayed.
+- RGB LED Light - In my project, this is the output that is used to display the a colour based on the temperature. For example, if it is cold, blue will be showing. If it is hot, red will be displayed.
 
 <br>
 
@@ -76,9 +76,15 @@ RGB LED With and ESP-32:
 
 My Fully-Wired Smart Watering App:
 <br>
-<img src="public/assets/Wired_ESP-32.jpg" width="350" height="400">
+<img src="public/assets/Wired_ESP-32.jpg" width="350" height="390">
 <br>
 
+<img src="public/assets/ESP-Wiring1.jpg" width="350" height="300">
+<br>
+
+<img src="public/assets/ESP-Wiring2.jpg" width="350" height="400">
+<br>
+<br>
 
 
 ### Installations
