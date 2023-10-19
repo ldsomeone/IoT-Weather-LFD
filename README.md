@@ -20,9 +20,14 @@
 
 ### Description and Purpose:
 
-This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor to take reading on the weather and capacity of a water tank. This data is transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. This is useful so you can manage your water use and this project is the start of a fully automated watering system. This is because there is the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
+Overview: This project uses an ESP-32, DHT-11 (Weather) Sensor and HR-S04 (Ultrasonic) Sensor to take readings on the weather and capacity of a water tank. This data is transfered over WiFi to the server so that you can check the weather and how much water is left in your tank at any time. This is useful so you can manage your water use and this project is the start of a fully automated watering system. This is because there is the potential to develop this idea a lot further with a rain-sensor model, soil moisture or an irrigation controller. 
+
+Purpose: This is designed to be the start of a fully automated IoT watering system.
+
+Usage: This project is intended so that the ultrasonic sensor is placed on top of a water tank (with a powersource) and taking in data once every few minutes. It, combined with the weather sensor will transmit data over the WiFi to the server where you can chech the status at any time. It is also possible to do so while away or on holidays so that your garden will stay looking great!
 
 Important: All of the code has been commented for easy understanding. In the firmware folder, in the arduino code (.ino) file, you will have to change the network name and password to whatever you want (your WiFi) because otherwise this project will not work.
+
 <br>
 <br>
 
@@ -32,7 +37,7 @@ Important: All of the code has been commented for easy understanding. In the fir
 <br>
 
 ### Components Used
-In this project the components used were: 
+This project used two different sensor imputs and a transducer output:
 - an ESP-32 - This is a microchip that we have used to send information to, and recieve information from, the sensors. This has integrated Wi-Fi and connects to our node application to provide real time data.
 
 - HR-S04 (Ultrasonic Sensor) - Ultrasonic sensors can be used in many situations. For us, it is used to calculate the how much water is left in a water tank by finding the distance from the top of the water tank to the level of the water. This distance is then converted into a percentage of the maximum capacity. The calculations used are for a sample water tank.
@@ -90,7 +95,7 @@ My Fully-Wired Smart Watering App:
 ### Installations
 Installing the three programs below are necessary for this project.
 
-- Aruino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
+- Arduino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
 Follow installation guide then install the following libraries: aREST Library, DHT Sensor Library and Adafruit Unified Sensor Library
 
 - VS Code [Setting Up VS Code](https://code.visualstudio.com/download)
@@ -161,7 +166,7 @@ This [article](https://www.w3schools.com/nodejs/nodejs_intro.asp) discusses what
      > Seup with head/footer and css
      
      > Put the readings from the sensors onto the webpage
-   
+
 <br>
 
 ### Worklog and Commits
