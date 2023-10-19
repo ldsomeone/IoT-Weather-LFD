@@ -183,11 +183,12 @@ Date | Commit Message | Version
 
 ### References
 
-- [Web Page Layouts](https://www.youtube.com/watch?v=3C_22eBWpjg)
-- [JS Native Fetch](https://www.youtube.com/watch?v=MBqS1kYzwTc)
-- [HR-S04 Information](https://components101.com/sensors/ultrasonic-sensor-working-pinout-datasheet)
-- [Tutorial for Ultrasonic Sensor](https://www.instructables.com/Ultrasonic-Water-Level-Indicator-Using-HC-SR04-Ard/)
-- [About te DHT-11 Senor and How to Set Up](https://components101.com/sensors/dht11-temperature-sensor)
-- [About the RGD LED](https://www.circuitbread.com/tutorials/how-rgb-leds-work-and-how-to-control-color)
-
+- The Website Architech (2021) How to Layout a Webpae [https://www.youtube.com/watch?v=3C_22eBWpjg](https://www.youtube.com/watch?v=3C_22eBWpjg)
+- Fireship (2021) JS Native Fetch. [https://www.youtube.com/watch?v=MBqS1kYzwTc](https://www.youtube.com/watch?v=MBqS1kYzwTc)
+- W3 Schools (2023) Node JS Introduction. [https://www.w3schools.com/nodejs/nodejs_intro.asp](https://www.w3schools.com/nodejs/nodejs_intro.asp)
+- Components 101 (2021) HC-SR04 Ultrasonic Sensor. [https://components101.com/sensors/ultrasonic-sensor-working-pinout-datashee](https://components101.com/sensors/ultrasonic-sensor-working-pinout-datasheet)
+- Instructables (2021) Water Level Indicator Using a HC-SR04 [https://www.instructables.com/Ultrasonic-Water-Level-Indicator-Using-HC-SR04-Ard/](https://www.instructables.com/Ultrasonic-Water-Level-Indicator-Using-HC-SR04-Ard/)
+- Components 101 (2021) DHT-11 Temperature Sensor.[https://components101.com/sensors/dht11-temperature-sensor](https://components101.com/sensors/dht11-temperature-sensor)
+- Circuit Bread (2019) How LED's Work and How to Control Their Color. [https://www.circuitbread.com/tutorials/how-rgb-leds-work-and-how-to-control-color](https://www.circuitbread.com/tutorials/how-rgb-leds-work-and-how-to-control-color)
+- LogRocket (2021) How to Use EJS to Template Your Node Application. [https://blog.logrocket.com/how-to-use-ejs-template-node-js-application/](https://blog.logrocket.com/how-to-use-ejs-template-node-js-application)
 
