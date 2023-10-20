@@ -109,7 +109,22 @@ Download via the link above
 ### Setting Up A Github Repository
 Setting up a GitHub repository can be very, very useful so you have a record of your code.
 <br>
-Follow the guide to setup a repository by forking this repo: [How to Fork a GitHub Repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
+A step-by-step guide is detailed below, but to fork this repository and get started straight away, follow the link: [How to Fork a GitHub Repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
+
+1. Create a GitHub Account:
+    > If you don't already have a GitHub account, you'll need to sign up for one. Go to https://github.com/ and follow the instructions to create your account.
+2. Create a New Repository:
+    > Once you're logged in, click on the "+" sign in the upper right corner of the GitHub page and select "New repository". Then follow the prompts.
+3. Initialise with a README:
+    > If your project doesn't already have a README file, it's a good practice to check the "Initialize this repository with a README" option. A README provides information about your project and is a great place to document how to use your code.
+4. Create Repository:
+    > Click the "Create repository" button. Your new repository will be created, and you'll be directed to the repository's main page.
+5. Set Up Local Git Configuration:
+    > If you haven't already configured Git on your local machine, follow the instructions in the GitHub repository to set up your Git identity (username and email). This is essential for committing and pushing changes from your local machine to the remote repository.
+6. Push Code:
+    > If you have existing code you'd like to add to your repository, follow the instructions on the repository page under "…or push an existing repository from the command line." This will guide you through the process of connecting your local Git repository to the remote repository on GitHub.
+
+
 
 <br>
 
@@ -150,8 +165,8 @@ This [article](https://www.w3schools.com/nodejs/nodejs_intro.asp) discusses what
 
 ### Coding
 
-1. Code the Adrduino -. 
-    >  Taking the reading from the ultrasonic sensor and dht-11 weather sensor
+1. Code the Adrduino:
+    > Taking the reading from the ultrasonic sensor and dht-11 weather sensor
 
     > LED code - vary the colour based on the temperature. I.e. if it is hot red is displayed, if it is cold, blue is displayed and so on.
 
