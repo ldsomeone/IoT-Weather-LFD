@@ -93,17 +93,27 @@ My Fully-Wired Smart Watering App:
 
 
 ### Installations
-Installing the three programs below are necessary for this project.
+To ensure the smooth development and operation of this project, it's essential to set up the following programs and libraries. These installations will provide the necessary tools and resources for working with your project.
 
-- Arduino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
-Follow installation guide then install the following libraries: aREST Library, DHT Sensor Library and Adafruit Unified Sensor Library
+1. Arduino: [Setting Up The Arduino IDE](https://www.arduino.cc/en/software)
+The Arduino Integrated Development Environment (IDE) is the primary platform for programming and uploading code to the ESP-32 and is the foundation for our project's hardware. Follow these steps to set it up:
+    > Installation Guide: Begin by downloading the Arduino IDE from the official website [](https://www.arduino.cc/en/software). Choose the version that matches your operating system (Windows, macOS, or Linux). Follow the installation instructions specific to your platform.
+    > Then install the aREST Library that enables communication with other devices and platforms. You can do this from within the Arduino IDE. Open the IDE, go to "Sketch" > "Include Library" > "Manage Libraries," then search for and install the aREST library. You will also need DHT Sensor Library: For working with DHT (Distributed Humidity and Temperature) sensors, the DHT Sensor Library is essential. Install it in the same way as the aREST library. Finsally, get the Adafruit Unified Sensor Library - to interface with  sensors, we need the Adafruit Unified Sensor Library.
 
-- VS Code [Setting Up VS Code](https://code.visualstudio.com/download)
-Follow the installation guide above
+<br>
 
-- Node JS [Setting Up Node Js](https://nodejs.org/en)
-Download via the link above
+2. VS Code [Setting Up VS Code](https://code.visualstudio.com/download)
+Visual Studio Code is a code editor that is used to edit and manage the project's code. Follow these steps to set up VS Code:
+    > Installation Guide: Download and install Visual Studio Code from the website [](https://code.visualstudio.com/). Choose the version that matches your operating system. Follow the installation instructions provided for your platform.
 
+<br> 
+
+3. Node JS [Setting Up Node Js](https://nodejs.org/en):
+Node.js is a runtime environment that allows you to run JavaScript on the server-side, and it is good for our real-time communication and server-side logic. Follow these steps to set up Node.js:
+    > Download Node.js: Visit the official Node.js website [](https://nodejs.org/en) and download the version that suits your operating system. 
+    > Installation: Once the download is complete, run the installation package and follow the installation instructions for your platform. During the installation process, the npm (Node Package Manager) will also be installed, which is essential for managing packages and dependencies in your Node.js projects.
+
+<br>
 <br>
 
 ### Setting Up A Github Repository
@@ -162,8 +172,10 @@ This [article](https://www.w3schools.com/nodejs/nodejs_intro.asp) discusses what
     > npm install --save-dev dotenv nodemon
     
 <br>
+<br>
 
 ### Coding
+This is the rough process I used to code the project. This can all be seen in the actual files in this repository.
 
 1. Code the Adrduino:
     > Taking the reading from the ultrasonic sensor and dht-11 weather sensor
