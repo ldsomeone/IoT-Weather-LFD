@@ -10,6 +10,7 @@
 - [Prerequisites](#Prerequisites)
 - [Wiring](#Wiring)
 - [Installations](#Installations)
+- [Website Preview](#Website-Preview)
 - [Setting Up A Github Repository](#Setting-Up-A-Github-Repository)
 - [Starting Node.js](#Node.js)
 - [Coding](#Coding)
@@ -89,8 +90,14 @@ My Fully-Wired Smart Watering App:
 
 <img src="public/assets/ESP-Wiring2.jpg" width="350" height="400">
 <br>
-<br>
 
+###mWebsite Preview
+<br>
+<img src="public/assets/WateringAppPreview.png" width="800" height="400">
+<br>
+<img src="public/assets/WateringAppPreview.png" width="800" height="400">
+<br>
+<br>
 
 ### Installations
 To ensure the smooth development and operation of this project, it's essential to set up the following programs and libraries. These installations will provide the necessary tools and resources for working with your project.
