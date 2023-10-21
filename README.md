@@ -89,9 +89,11 @@ My Fully-Wired Smart Watering App:
 <br>
 
 <img src="public/assets/ESP-Wiring2.jpg" width="350" height="400">
+
+<br>
 <br>
 
-###mWebsite Preview
+### Website Preview
 <br>
 <img src="public/assets/WateringAppPreview.png" width="800" height="400">
 <br>
